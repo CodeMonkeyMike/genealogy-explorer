@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e7cdc72/
+Ancestry\\Models\\Types	Related.php	/^namespace Ancestry\\Models\\Types;$/;"	n	language:PHP
+Ancestry\\Models\\Types	Sex.php	/^namespace Ancestry\\Models\\Types;$/;"	n	language:PHP
+CHILD	Related.php	/^    const CHILD = 'child';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+COUSIN	Related.php	/^    const COUSIN = 'cousin';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+FEMALE	Sex.php	/^    const FEMALE = 'female';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Sex
+GRAND	Related.php	/^    const GRAND = 'grand';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+GREAT	Related.php	/^    const GREAT = 'great';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+MALE	Sex.php	/^    const MALE = 'male';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Sex
+PARENT	Related.php	/^    const PARENT = 'parent';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+REMOVED	Related.php	/^    const REMOVED = 'removed';$/;"	d	language:PHP	class:Ancestry\\Models\\Types\\Related
+Related	Related.php	/^class Related$/;"	c	language:PHP	namespace:Ancestry\\Models\\Types
+Sex	Sex.php	/^class Sex$/;"	c	language:PHP	namespace:Ancestry\\Models\\Types
+__construct	Related.php	/^    public function __construct($relation)$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+__construct	Sex.php	/^    public function __construct($sex)$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+__toString	Related.php	/^    public function __toString(): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+__toString	Sex.php	/^    public function __toString(): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+equals	Related.php	/^    public function equals($value)$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+equals	Sex.php	/^    public function equals($value): bool$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+femaleSpelling	Sex.php	/^    public static $femaleSpelling = ['woman', 'female'];$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Sex
+genderedRelationship	Related.php	/^    public function genderedRelationship($sex)$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+genderedRelationships	Related.php	/^    protected static $genderedRelationships = [$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Related
+get	Related.php	/^    public function get(): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+get	Sex.php	/^    public function get(): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+isFemale	Sex.php	/^    public function isFemale(): bool$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+isMale	Sex.php	/^    public function isMale(): bool$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+maleSpelling	Sex.php	/^    public static $maleSpelling = ['man', 'male'];$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Sex
+modifier	Related.php	/^    protected static $modifier = [$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Related
+parse	Related.php	/^    public static function parse($relation): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Related
+parse	Sex.php	/^    public static function parse($sex): string$/;"	f	language:PHP	class:Ancestry\\Models\\Types\\Sex
+relations	Related.php	/^    protected static $relations = [$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Related
+sexes	Sex.php	/^    protected static $sexes = [self::MALE, self::FEMALE];$/;"	v	language:PHP	class:Ancestry\\Models\\Types\\Sex

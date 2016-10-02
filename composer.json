@@ -1,0 +1,12 @@
+{
+    "require": {
+        "illuminate/database": "*",
+        "illuminate/filesystem": "*",
+        "psy/psysh": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ancestry\\": "ancestry/"
+        }
+    }
+}
