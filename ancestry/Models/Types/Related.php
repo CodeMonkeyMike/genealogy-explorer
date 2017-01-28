@@ -54,8 +54,10 @@ class Related
             }
         }
 
-        if (is_object($relation) && get_class($relation) === self::class) {
-            return self::parse($relation->get());
+        if (is_object($relation)) {
+            if (get_class($relation) === self::class) {
+                return self::parse($relation->get());
+            }
         }
 
         throw new \Exception('Not a valid relation');
